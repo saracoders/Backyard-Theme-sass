@@ -1,0 +1,60 @@
+
+header  {
+		height: 50px;
+	img {
+		height: 30px; 
+	}
+	.navbar-default {
+		border:none;
+		background: white;
+	}
+	.container {
+		padding: 0;
+	}
+}
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color:white;
+  .opacity {
+  	height: 400px;
+  	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+  }
+}
+.btn-color	{
+	display:inline-block;
+	background: transparent;
+	border:1px #3CB0F7 solid;
+	color:#3CB0F7;
+	}
+.btns {
+	@extend .btn-color;
+	padding: 10px;
+	border-radius:10px;
+	margin-right: 20px; 
+}
+.redes {
+	@extend .btn-color; 
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+	}
+section {
+	img {
+		width: 100%;
+	}
+}
+
+.pd-50-0 {
+	padding: 50px 0;
+}
+.bg-gray{
+	background:#f6f6f6;
+}
